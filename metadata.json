@@ -1,5 +1,5 @@
 {
-  "description": "It removes the 'Window is ready' notification and puts the window immediately into focus instead. Updated for Gnome 45.", 
+  "description": "It removes the 'Window is ready' notification and puts the window immediately into focus instead. Only compatible with Gnome 45+.", 
   "name": "Steal My Focus", 
   "original-authors": [
     "kagesenshi.87@gmail.com", 
@@ -8,7 +8,7 @@
   "shell-version": [
     "45.*"
   ], 
-  "url": "https://github.com/sstent/gnome-shell-extension-stealfocus", 
+  "url": "https://github.com/fledor/gnome-shell-extension-stealmyfocus", 
   "uuid": "steal-my-focus@kagesenshi.org", 
   "version": 4
 }
