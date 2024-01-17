@@ -17,7 +17,6 @@ export default class StealMyFocus extends Extension {
   }
 
   _init() {
-    //this._tracker = Shell.WindowTracker.get_default();
     this._tracker = WindowAttentionHandler._tracker;
     this._handlerid = global.display.connect(
       "window-demands-attention",
